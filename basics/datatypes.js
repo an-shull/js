@@ -9,6 +9,9 @@ let name = "anshul"
 let age = 21
 let isLoggedIn = true
 
+
+// primitive =>
+
 // number  => 2 ^ 53
 //bigint
 // string => ""
@@ -17,7 +20,9 @@ let isLoggedIn = true
 // undefined => unassigned 
 // symbol => unique
 
-// object 
+// Reference(non primitive) =>
+
+// object, arrays, functions
 
 console.log(typeof name)
 console.log(typeof age)

@@ -29,3 +29,10 @@ console.log(typeof age)
 console.log(typeof isLoggedIn)
 console.log(typeof null)
 console.log(typeof undefined)
+
+// memory types =>
+
+    // stack (primitive) => copy
+    // heap (non primitive) => reference
+
+    

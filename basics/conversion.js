@@ -14,3 +14,23 @@ let isLoggedIn = 1
 
 let bool = Boolean(isLoggedIn)
 console.log(bool)
+ 
+
+// Operatios =>
+
+let value = 3
+let negval = -value
+console.log(negval)
+
+// pre,post
+
+let x = 3;
+const y = x++;
+
+console.log(x,y);
+// Expected output: x:4, y:3 // returns the val before inc
+
+let a = 3;
+const b = ++a;
+console.log(a,b);
+// Expected output: a:4, b:4 //returns the val after inc

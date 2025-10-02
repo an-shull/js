@@ -40,3 +40,25 @@ console.log(a2)
 
 // slice does not manipulate the original array 
 // splice manipulates the original array
+
+const marvel = ["thor", "ironman", "spiderman"]
+const dc = ["superman", "flash", "batman"]
+
+// const heroes = marvel.concat(dc)
+// console.log(heroes)
+
+const heroes = [...marvel, ...dc]
+console.log(heroes)
+
+const moreArr = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const real_moreArr = moreArr.flat(Infinity)
+console.log(real_moreArr)
+
+console.log(Array.isArray("anshul"))
+console.log(Array.from("anshul"))
+
+let s1 = 100
+let s2 = 200
+let s3 = 300
+
+console.log(Array.of(s1, s2, s3))

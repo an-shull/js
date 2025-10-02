@@ -1,6 +1,5 @@
-// singleton 
 
-// object literals
+// objects literals=>
 
 const mySym = Symbol("key1")
 
@@ -40,3 +39,4 @@ jsUser.greetingTwo = function(){
 }
 
 console.log(jsUser.greetingTwo())
+
